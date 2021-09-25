@@ -1,0 +1,224 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A3 16535 11693
+encoding utf-8
+Sheet 1 21
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 6145F2BE
+P 14500 9000
+F 0 "H1" H 14600 9046 50  0000 L CNN
+F 1 "MountingHole" H 14600 8955 50  0000 L CNN
+F 2 "footprint:MountingHole_3.2mm_M3,rpi_like" H 14500 9000 50  0001 C CNN
+F 3 "~" H 14500 9000 50  0001 C CNN
+	1    14500 9000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 6145F4A7
+P 14500 9500
+F 0 "H2" H 14600 9546 50  0000 L CNN
+F 1 "MountingHole" H 14600 9455 50  0000 L CNN
+F 2 "footprint:MountingHole_3.2mm_M3,rpi_like" H 14500 9500 50  0001 C CNN
+F 3 "~" H 14500 9500 50  0001 C CNN
+	1    14500 9500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H4
+U 1 1 6145F63E
+P 15550 9500
+F 0 "H4" H 15650 9546 50  0000 L CNN
+F 1 "MountingHole" H 15650 9455 50  0000 L CNN
+F 2 "footprint:MountingHole_3.2mm_M3,rpi_like" H 15550 9500 50  0001 C CNN
+F 3 "~" H 15550 9500 50  0001 C CNN
+	1    15550 9500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H3
+U 1 1 6145F800
+P 15550 9000
+F 0 "H3" H 15650 9046 50  0000 L CNN
+F 1 "MountingHole" H 15650 8955 50  0000 L CNN
+F 2 "footprint:MountingHole_3.2mm_M3,rpi_like" H 15550 9000 50  0001 C CNN
+F 3 "~" H 15550 9000 50  0001 C CNN
+	1    15550 9000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H5
+U 1 1 6146C607
+P 11700 9000
+F 0 "H5" H 11800 9046 50  0000 L CNN
+F 1 "MountingHole" H 11800 8955 50  0000 L CNN
+F 2 "footprint:MountingHole_3.2mm_M3,rpi_like" H 11700 9000 50  0001 C CNN
+F 3 "~" H 11700 9000 50  0001 C CNN
+	1    11700 9000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H6
+U 1 1 6146C611
+P 11700 9500
+F 0 "H6" H 11800 9546 50  0000 L CNN
+F 1 "MountingHole" H 11800 9455 50  0000 L CNN
+F 2 "footprint:MountingHole_3.2mm_M3,rpi_like" H 11700 9500 50  0001 C CNN
+F 3 "~" H 11700 9500 50  0001 C CNN
+	1    11700 9500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H8
+U 1 1 6146C61B
+P 12750 9500
+F 0 "H8" H 12850 9546 50  0000 L CNN
+F 1 "MountingHole" H 12850 9455 50  0000 L CNN
+F 2 "footprint:MountingHole_3.2mm_M3,rpi_like" H 12750 9500 50  0001 C CNN
+F 3 "~" H 12750 9500 50  0001 C CNN
+	1    12750 9500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H7
+U 1 1 6146C625
+P 12750 9000
+F 0 "H7" H 12850 9046 50  0000 L CNN
+F 1 "MountingHole" H 12850 8955 50  0000 L CNN
+F 2 "footprint:MountingHole_3.2mm_M3,rpi_like" H 12750 9000 50  0001 C CNN
+F 3 "~" H 12750 9000 50  0001 C CNN
+	1    12750 9000
+	1    0    0    -1  
+$EndComp
+$Sheet
+S 5000 1000 1000 1000
+U 614F2CF7
+F0 "Audio Codec-ALC5640" 50
+F1 "Audio Codec-ALC5640.sch" 50
+$EndSheet
+$Sheet
+S 5000 3000 1000 1000
+U 614F2E25
+F0 "IR_Encryption_FAN" 50
+F1 "IR_Encryption_FAN.sch" 50
+$EndSheet
+$Sheet
+S 5000 5000 1000 1000
+U 614F2FDB
+F0 "3G_4G_MODULE_M2_NGFF_PCIE" 50
+F1 "3G_4G_MODULE_M2_NGFF_PCIE.sch" 50
+$EndSheet
+$Sheet
+S 5000 7000 1000 1000
+U 614F3093
+F0 "WIFI_BT_AP6356S" 50
+F1 "WIFI_BT_AP6356S.sch" 50
+$EndSheet
+$Sheet
+S 5000 9000 1000 1000
+U 614F3222
+F0 "10_100_1000M_PHY" 50
+F1 "10_100_1000M_PHY.sch" 50
+$EndSheet
+$Sheet
+S 7000 1000 1000 1000
+U 614F3F9F
+F0 "MIPI_INTERFACE" 50
+F1 "MIPI_INTERFACE.sch" 50
+$EndSheet
+$Sheet
+S 7000 3000 1000 1000
+U 614F3FD1
+F0 "MIPI_EDP_Dsiplay_Port" 50
+F1 "MIPI_EDP_Dsiplay_Port.sch" 50
+$EndSheet
+$Sheet
+S 7000 5000 1000 1000
+U 614F3FD3
+F0 "DOUBLE_LVDS" 50
+F1 "DOUBLE_LVDS.sch" 50
+$EndSheet
+$Sheet
+S 7000 7000 1000 1000
+U 614F3FD5
+F0 "EXTENSION_INTERFACE" 50
+F1 "EXTENSION_INTERFACE.sch" 50
+$EndSheet
+$Sheet
+S 7000 9000 1000 1000
+U 614F3FD7
+F0 "SPI_TO_UART_RS232_RS485" 50
+F1 "SPI_TO_UART_RS232_RS485.sch" 50
+$EndSheet
+$Sheet
+S 9000 1000 1000 1000
+U 614F5121
+F0 "MXM_CONNECTOR" 50
+F1 "MXM_CONNECTOR.sch" 50
+$EndSheet
+$Sheet
+S 9000 3000 1000 1000
+U 614F5153
+F0 "3G_4G_MODULE" 50
+F1 "3G_4G_MODULE.sch" 50
+$EndSheet
+$Sheet
+S 9000 5000 1000 1000
+U 614F5155
+F0 "AMPLIFIER_WATCH_DOG" 50
+F1 "AMPLIFIER_WATCH_DOG.sch" 50
+$EndSheet
+$Sheet
+S 1000 1000 1000 1000
+U 614F8823
+F0 "POWER_IN" 50
+F1 "POWER_IN.sch" 50
+$EndSheet
+$Sheet
+S 1000 3000 1000 1000
+U 614F8865
+F0 "TYPEC0" 50
+F1 "TYPEC0.sch" 50
+$EndSheet
+$Sheet
+S 1000 5000 1000 1000
+U 614F8867
+F0 "HUB_USB2_0_PORT" 50
+F1 "HUB_USB2_0_PORT.sch" 50
+$EndSheet
+$Sheet
+S 1000 7000 1000 1000
+U 614F8869
+F0 "USB_HUB" 50
+F1 "USB_HUB.sch" 50
+$EndSheet
+$Sheet
+S 1000 9000 1000 1000
+U 614F886B
+F0 "TF_CARD_EFUSE" 50
+F1 "TF_CARD_EFUSE.sch" 50
+$EndSheet
+$Sheet
+S 3000 1000 1000 1000
+U 614F989A
+F0 "KEY_LED_DEBUG" 50
+F1 "KEY_LED_DEBUG.sch" 50
+$EndSheet
+$Sheet
+S 3000 3000 1000 1000
+U 614F989C
+F0 "HDMI_OUT" 50
+F1 "HDMI_OUT.sch" 50
+$EndSheet
+$EndSCHEMATC
